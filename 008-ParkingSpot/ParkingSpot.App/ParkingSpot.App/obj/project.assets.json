@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Garage.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Garage.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Garage.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Garage.Library/1.0.0": {
+      "type": "project",
+      "path": "../ParkingSpot.Library/Garage.Library.csproj",
+      "msbuildProject": "../ParkingSpot.Library/Garage.Library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Garage.Library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Leona\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Leona\\OneDrive - HTBLA Leonding\\Desktop\\2023-24\\Programmieren-C#\\008-ParkingSpot\\ParkingSpot.App\\ParkingSpot.App\\Garage.App.csproj",
+      "projectName": "Garage.App",
+      "projectPath": "C:\\Users\\Leona\\OneDrive - HTBLA Leonding\\Desktop\\2023-24\\Programmieren-C#\\008-ParkingSpot\\ParkingSpot.App\\ParkingSpot.App\\Garage.App.csproj",
+      "packagesPath": "C:\\Users\\Leona\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leona\\OneDrive - HTBLA Leonding\\Desktop\\2023-24\\Programmieren-C#\\008-ParkingSpot\\ParkingSpot.App\\ParkingSpot.App\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Leona\\OneDrive - HTBLA Leonding\\Desktop\\2023-24\\Programmieren-C#\\008-ParkingSpot\\ParkingSpot.App\\ParkingSpot.Library\\Garage.Library.csproj": {
+              "projectPath": "C:\\Users\\Leona\\OneDrive - HTBLA Leonding\\Desktop\\2023-24\\Programmieren-C#\\008-ParkingSpot\\ParkingSpot.App\\ParkingSpot.Library\\Garage.Library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
